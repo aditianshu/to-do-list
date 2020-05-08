@@ -1,0 +1,78 @@
+.outer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.349);
+    width: fit-content;
+    border-radius: 7%;
+    margin-top: 50px;
+}
+
+.list{
+    flex-wrap: wrap;
+}
+
+.add{
+    flex-wrap: wrap;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.item{
+    display: flex;
+    flex-flow: row;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.596);
+    height: fit-content;
+    border-radius: 10%;
+}
+
+.textIn{
+    flex : 60%;
+    flex-wrap: wrap;
+}
+
+.delete{
+    flex : 20%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.edit{
+    flex : 20%;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    background-color: rgb(255, 87, 171);
+    border-radius: 20%;
+    height: 30px;
+    width: 70px;
+    padding: 2px;
+    box-shadow: none;
+}
+
+.add{
+    margin: 15px;
+}
+
+.input{
+    background-color: rgba(255, 255, 255, 0.418);
+    height: 20px;
+    padding: 3px;
+    margin: 2px;
+}
